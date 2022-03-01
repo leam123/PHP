@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>Shopping Cart</title>
+<style>
+.header{
+	background-color: #89ABE3FF;
+	width: 97%;
+	height: 40px;
+	border: 5px solid #89ABE3FF;;
+	position: absolute;
+	padding: 5px;
+}
+
+.float_right{
+	float: right;
+}
+
+.float_left{
+	float: left;
+}
+
+.btn_style{
+	background-color: #FFAF0A;
+	font-size: 16px;
+	padding: 12px 28px;
+	border-radius: 12px;
+	width: 250px;
+}
+
+.center_text{
+	text-align: center;
+}
+
+.font_size{
+	font-size: 20px;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+a:visited{
+	text-decoration: none;
+	color: black;
+}
+a:active{
+	text-decoration: none;
+	color: black;
+}
+
+.bg_color{
+	background-color:  #89ABE3FF;
+}
+</style>
+</head>
+<body>
+	<div class="header">
+		<table>
+			<tr>
+				<td>
+					<div class="float_left"><img src="cargo2.png" width="90px" height="45px"></div>
+					<div style="font-size: 35px; color: white; font-weight: bold" class="float_left">Shopping Cart</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div>
+		<a href="Shop.html" class="btn_style float_right">Go Back to Shop</a>
+	</div>
+	<br>
+	<table style="width:100%">
+		<tr class="font_size">
+			<th class="bg_color" style="color: white">Product Name</th>
+			<th class="bg_color" style="color: white">QTY</th> 
+			<th class="bg_color" style="color: white">Price</th>
+			<th class="bg_color" style="color: white">Total</th>
+		</tr>
+		<br>
+		<br>
+		<br>
+		<tr class="font_size center_text">
+			<td> Toothpaste </td>
+			<td>
+				<br>
+				<button style="font-size: 20px"> + </button>
+				<textarea style="font-size: 15px" rows="2" cols="3" readonly> 2 </textarea>
+				<button style="font-size: 20px"> -- </button>
+			</td>
+			<td>10.00 </td>
+			<td>20.00 </td>
+		</tr>
+		<tr class="font_size center_text">
+			<td>
+			
+			</td>
+			<td>
+			
+			</td>
+			<td>
+			
+			</td>
+			<td>
+				<br><br>
+				<div>________________</div>
+				<br><div> 20.00 </div>
+			</td>
+		</tr>
+		<tr>
+			
+		</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="font_size">
+		Payment Method:
+			<br><br><button class="btn_style"> Credit Card </button>
+			<br><button class="btn_style"> Cash on Delivery </button>
+	</div>
+	<br>
+	<br>
+	<div class="float_right">
+		<button type="submit" class="btn_style"> Submit </button>
+	</div>
+</body> 
+</html>

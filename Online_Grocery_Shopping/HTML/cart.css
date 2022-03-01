@@ -1,0 +1,51 @@
+.header{
+	background-color: #89ABE3FF;
+	width: 97%;
+	height: 40px;
+	border: 5px solid #89ABE3FF;;
+	position: absolute;
+	padding: 5px;
+}
+
+.float_right{
+	float: right;
+}
+
+.float_left{
+	float: left;
+}
+
+.btn_style{
+	background-color: #FFAF0A;
+	font-size: 16px;
+	padding: 12px 28px;
+	border-radius: 12px;
+	width: 250px;
+}
+
+.center_text{
+	text-align: center;
+}
+
+.font_size{
+	font-size: 20px;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+a:visited{
+	text-decoration: none;
+	color: black;
+}
+a:active{
+	text-decoration: none;
+	color: black;
+}
+
+.bg_color{
+	background-color:  #89ABE3FF;
+}

@@ -1,0 +1,40 @@
+.block{
+	position: absolute;
+	left: 30%;
+	top: 25%;
+	width: 30%;
+	height: 30%;
+	text-align: center;
+	font-size: 45px;
+	background: rgba(255,255,255,0.5);
+	color: black;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	line-height: 20px;
+}
+
+.block .button{
+	position: static;
+	background-color: #0055FF;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
+	width: 60%;
+	height: 30px;
+}
+
+.left{
+	float: left;
+}
+
+.size{
+	height: 15%;
+	width: 60%;
+}
+
+.font{
+	font-size: 15px;
+}

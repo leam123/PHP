@@ -1,0 +1,88 @@
+.header{
+	background-color: black;
+	width: 99.99%;
+	height: 55px;
+	border: 5px solid black;
+	position: absolute;
+}
+.footer{
+	background-color: black;
+	width: 99.99%;
+	height: 30px;
+	border: 5px solid black;
+	position: absolute;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: black;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+ul{
+	margin-top: 10px;
+	float: right;
+}
+
+ul li{
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 10px;
+	word-spacing: 5px;
+}
+
+ul li a{
+	margin-right: 15px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: black;
+}
+
+ul li a:link {
+  color: black;
+  font-style: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+ul li a:visited {
+  color: black;
+  text-decoration: none;
+}
+ul li a:hover{
+	color: #89ABE3FF;
+	text-decoration: underline;
+}
+
+a:link {
+  color: #89ABE3FF;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:visited {
+  color: #89ABE3FF;
+  text-decoration: none;
+}
+a:hover{
+	color: #89ABE3FF;
+	font-size: 35px;
+	font-style: bold;
+	text-decoration: none;
+}
+.price-details h6{
+	padding: 3% 2%;
+}

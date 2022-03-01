@@ -1,0 +1,68 @@
+<html>
+	<header>
+		<title>Login</title>
+		<style>
+			body{
+				background-image: url("login.jpg");
+				height: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.block{
+				position: absolute;
+				left: 30%;
+				top: 25%;
+				width: 30%;
+				height: 30%;
+				text-align: center;
+				font-size: 45px;
+				background: rgba(255,255,255,0.5);
+				color: black;
+				padding-left: 50px;
+				padding-right: 50px;
+				padding-top: 40px;
+				padding-bottom: 50px;
+				line-height: 20px;
+			}
+
+			.block .button{
+				position: static;
+				background-color: #0055FF;
+				color: white;
+				text-align: center;
+				font-size: 15px;
+				padding: 5px;
+				width: 60%;
+				height: 30px;
+			}
+
+			.left{
+				float: left;
+			}
+
+			.size{
+				height: 15%;
+				width: 60%;
+			}
+
+			.font{
+				font-size: 15px;
+			}
+		</style>
+	</header>
+	
+	<body>
+			<div class="block">
+				<div>Login</div><br><br>
+				<form>
+					<input type="text" placeholder="Username" name="username" class="left size" required>
+						<a href="Forgot.html" class="font">Forgot Password or Username?</a><br><br>
+					<input type="password" placeholder="Password" name="password" class="left size" required>
+						<div style="font-size: 10px">Create Account</div>
+						<a href="Register.html" class="font">REGISTER</a><br><br>
+					<button type="submit" class="button left">Login</button>
+				</form>
+			</div>
+	</body>
+</html>

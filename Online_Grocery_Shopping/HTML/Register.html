@@ -1,0 +1,61 @@
+<html>
+	<header>
+		<title>Register</title>
+		<link rel="stylesheet" type="text/css" href="myregisterstyle.css">
+		<style>
+			body{
+				background-image: url("register.jpg");
+				height: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		</style>
+	</header>
+	<body>
+			<div>
+				<div><img src="account.png" height="80" width="80" class="centerpic"></div>
+				<div class="font">Create Account</div>
+				<div class="block">
+					<div>
+						<form>
+							<label class="centerfield"> Lastname </label>
+							<input type="text" id="lastname" placeholder="Lastname" class="right size" required><br><br>
+							<label class="centerfield"> Firstname </label>
+							<input type="text" id="firstname" placeholder="Firstname" class="right size" required><br><br>
+							<label class="centerfield"> Contact No. </label>
+							<input type="text" id="contactno" placeholder="09123456789" class="right size" required><br><br>
+							<label class="centerfield"> Street </label>
+							<input type="text" id="street" placeholder="Street" class="right size" required><br><br>
+							<label class="centerfield"> Barangay </label>
+							<input type="text" id="barangay" placeholder="Barangay" class="right size" required><br><br>
+							<label class="centerfield"> City </label>
+							<input type="text" id="city" placeholder="City" class="right size" required><br><br>
+							<label class="centerfield"> Postal Code </label>
+							<input type="text" id="postalcode" placeholder="Postal Code" class="right size" required><br><br>
+							<label class="centerfield"> Username </label>
+							<input type="text" id="username" placeholder="Username" class="right size" required><br><br>
+							<label class="centerfield"> Email </label>
+							<input type="email" id="email" placeholder="Email Address" class="right size" required><br><br>
+							<label class="centerfield"> Password </label>
+							<input type="password" id="password" placeholder="Password" id="password" class="right size" required><br><br><br>
+							<!-- <label class="centerfield"> Confirm Password </label>
+							<input type="password" name="confirm" placeholder="Confirm Password" id="confirm" onkeyup='check();' class="right size" required><br><br><br>-->
+							<button type="submit" id="create" class="button">Create Account</button><br>
+							<!--<div style="font-size: 15px; color: #EBEB00; font-weight: bold"> Note: if the passwords don't match, account will not be created.</div>-->
+						</form>
+					</div>
+				</div>
+			</div>
+		<!--<script>
+		var check = function() {
+			if (document.getElementById('confirm').value != document.getElementById('password').value){
+				document.getElementById('create').disabled = true;
+			} else {
+				document.getElementById('create').disabled = false;
+			}
+		}
+		</script>-->
+	</body>
+	
+</html>

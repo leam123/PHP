@@ -1,0 +1,52 @@
+<html>
+<head>
+<title> My Top 5 Favorite Songs </title>
+<link type="text/css" ref="stylesheet" href="body.css">
+</head>
+
+body.song1{
+	background-image:url();
+	}
+body.song2{
+	background-image:url();
+	}
+body.song3{
+	background-image:url();
+	}
+body.song4{
+	background-image:url();
+	}
+body.song5{
+	background-image:url();
+	}
+div#main{
+	text-align: center;
+	line-height: 50px;
+	border: 15pz solid #FFF;
+	padding: 50px;
+	width: 500px;
+	margin: auto;
+	background-color: black;	
+	}
+p#title{
+	font-size: 40px;
+	font-weight: bold;
+	}
+p#artist{
+	font-size: 15px;
+	font-style: italic;
+	}
+p#lyrics{
+	font-size: 20px;
+	}
+ol#text{
+	color: white;
+	}
+#main{
+	color: white;
+	}
+#text:hover{
+	color: yellow;
+	font-size: 35px;
+	}
+</html>

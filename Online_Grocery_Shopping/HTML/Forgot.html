@@ -1,0 +1,37 @@
+<html>
+	<header>
+		<title>Forgot Password/Username</title>
+		<link rel="stylesheet" type="text/css" href="forgot.css">
+		<style>
+			body{
+				background: url("forgot.jpg");
+				height: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		</style>
+	</header>
+	<body>
+		<div class="block">
+			<div>
+				<img src="Cargo.png" width="150px" height="100px">
+				<div class="font">Forgot Password/Username</div><br>
+				<form>
+					<div style="font-size: 15px; color: blue"> If password/username has been forgotten</div>
+					<div style="font-size: 15px; color: blue"> please change into a new one</div><br>
+					<label class="centerfield"> Lastname </label>
+					<input type="text" name="lastname" placeholder="Lastname" class="right size" required><br><br>
+					<label class="centerfield"> Firstname </label>
+					<input type="text" name="firstname" placeholder="Firstname" class="right size" required><br><br>
+					<label class="centerfield"> Username </label>
+					<input type="email" name="username" placeholder="Username" class="right size" required><br><br>
+					<label class="centerfield"> Password </label>
+					<input type="password" name="password" placeholder="Password" id="password" class="right size" required><br><br>
+					<br><button type="submit" id="send" class="button">Send</button>
+				</form>
+			</div>
+		</div>
+	</body>
+	
+</html>
